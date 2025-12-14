@@ -13,7 +13,8 @@ Connectivity path:
 
 ## 1. Architecture Overview
 
-> 🖼️ diagram 
+> 🖼️ <img width="1291" height="886" alt="image" src="https://github.com/user-attachments/assets/5d84c62d-0763-437a-9bbd-2714d32109ac" />
+
 
 **Account A --- MySolar** - RDS PostgreSQL (`rts-dev`, `rts-qa`,
 `rts-prod`) - Private RDS subnet group\
