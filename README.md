@@ -1,4 +1,4 @@
-# VPC Peering: MySolar RDS PostgreSQL ↔ MS Fabric (BSI Account)
+# VPC Peering: RDS PostgreSQL (AWS Account-A) ↔ MS Fabric (AWS Account-B)
 
 This repository documents how to connect an **RDS PostgreSQL** database
 in the **MySolar AWS account** to **Microsoft Fabric** in the **BSI AWS
