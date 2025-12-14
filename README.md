@@ -191,13 +191,15 @@ nc -vz <RDS-ENDPOINT> 5432
 
 ------------------------------------------------------------------------
 
-## 9. Cleanup
-
+## 9. Rollback (if needed)
+A.
 ``` cmd
 aws ec2 delete-vpc-peering-connection ^
   --profile %MYSOLAR_PROFILE% ^
   --region %MYSOLAR_REGION% ^
   --vpc-peering-connection-id %VPC_PEERING_ID%
 ```
+B. Remove security-group rule for allowing Data-Gateway
+C. Remove Network Routing for VPC Peering
 
 ------------------------------------------------------------------------
