@@ -200,6 +200,7 @@ aws ec2 delete-vpc-peering-connection ^
   --vpc-peering-connection-id %VPC_PEERING_ID%
 ```
 B. Remove security-group rule for allowing Data-Gateway
+
 C. Remove Network Routing for VPC Peering
 
 ------------------------------------------------------------------------
